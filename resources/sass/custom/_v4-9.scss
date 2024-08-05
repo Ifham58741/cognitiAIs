@@ -1,0 +1,193 @@
+/* ==========================================================================           
+ *
+ *    v4.9 Update
+ *
+ * ========================================================================== */
+ .prompts {
+    position: absolute;
+    left: 1rem;
+    padding-top: 5px;
+
+    &:hover {
+      color: $primaryTextActiveColor!important;
+    }
+ }
+
+ #features-wrapper .features-nav-menu .features-nav-menu-inner .nav-tabs {
+  white-space: nowrap !important;
+  border-bottom: none;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: nowrap !important;
+  overflow: overlay;
+}
+
+.features-nav-menu-inner {
+  width: auto;
+}
+
+#features-wrapper .features-nav-menu .features-nav-menu-inner .nav-tabs .nav-link {
+  margin-right: 5px;
+  margin-bottom: 1rem;
+}
+
+#features-wrapper .features-nav-menu .features-nav-menu-inner .nav-tabs .nav-link.active {
+  box-shadow: 0 10px 25px -12px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-0 {
+  box-shadow: none;
+  border-color: #dbe2ebb0;
+}
+
+.btn-primary-chat {
+  border: 1px solid #ebecf1;
+  min-width: 120px;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline:none;
+  
+
+  &:hover, &:focus {
+    border-color: $primaryTextActiveColor;
+    i, span, svg {
+      color: $primaryTextActiveColor;
+    }
+  }
+}
+
+.chat-controllers .chat-button-icon {
+  background-color: #ebeff5a6;
+  color: #728096;
+
+  &:hover, &:focus {
+    background-color: #E1F0FF;
+    color: #007BFF;
+  }
+}
+
+
+label.model-box {
+  margin-bottom: 1rem;
+  width: 150px;
+  height: 100px;
+  line-height: 90px;
+  border: 1px solid #ebecf1;
+
+  &:hover, &:focus {
+    border: 1px solid $primaryTextActiveColor;
+  }
+
+  .active, .focus {
+    border: 1px solid $primaryTextActiveColor!important;
+  }
+}
+
+label.btn:focus, label.btn.focus, label.btn.active {
+  border: 1px solid $primaryTextActiveColor!important;
+}
+
+#subscription-header {
+  background-image: url(/img/files/waves.png);
+  background-size: cover;
+  background-position: top;
+
+  #subscription-header-inner {
+    min-height: 200px;
+  }
+
+  .cancel-subscription {
+    background: #728096;
+    padding: 5px 1rem;
+    border-radius: 1rem;
+    color: #fff;
+
+    &:hover {
+      background-color: #000;
+    }
+  }
+}
+
+.prepaid-view-box {
+  border: 1px solid rgba(219, 226, 235, 0.6901960784);
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.chat-model-box {
+  // display: flex;
+  // flex-flow: row wrap;
+  
+  div {
+    // flex: 1;
+    padding: 0.5rem;
+  }
+  
+  input[type=radio] {
+    display: none;
+  }
+
+  input[type=radio]:not(:disabled) ~ label {
+    cursor: pointer;
+  }
+  input[type=radio]:disabled ~ label {
+    color: #bcc2bf!important;
+    box-shadow: none;
+    cursor: not-allowed;
+
+    p {
+      color: #bcc2bf!important;
+    }
+  }
+  
+  label {
+    height: 100%;
+    display: block;
+    border: 1px solid rgba(219, 226, 235, 0.6901960784);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  input[type=radio]:checked + label {
+    border-color: $primaryTextActiveColor;
+    h6 {
+      color: $primaryTextActiveColor;
+    }
+  }
+
+  .action-button {
+    color: $primaryTextActiveColor;
+
+    &:hover {
+      color: #000;
+    }
+  }
+  
+}
+
+#chat-export-button {
+  button {
+    outline: none !important;
+    appearance: none !important;
+    box-shadow: none!important;
+  }
+
+  .dropdown-menu.show {
+    border-radius: 7px;
+    border-color: transparent;
+  }
+
+  .dropdown-item {
+    font-size: 12px;
+    padding: 4px 12px;
+    cursor: pointer;
+
+    &:hover {
+      color: $primaryTextActiveColor;
+    }
+  }
+}

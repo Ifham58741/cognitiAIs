@@ -1,0 +1,92 @@
+/* ==========================================================================           
+ *
+ *    v5.5 Update
+ *
+ * ========================================================================== */
+
+.photo-studio-tools .nav-link.dropdown-toggle {
+  border: 1px solid rgba(203, 213, 224, 0.7);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 15px 24px;
+
+    h6 {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+}
+
+.photo-studio-tools .dropdown-toggle::after {
+  position: absolute;
+  right: 1.5rem;
+}
+
+.photo-studio-tools .dropdown .dropdown-menu {
+  left: 0 !important;
+    transform: none !important;
+    max-height: 450px !important;
+    top: 60px !important;
+    border: 1px solid rgba(203, 213, 224, 0.7) !important;
+    border-radius: 0.5rem;
+    overflow-y: scroll !important;
+    padding: 0 0 !important;
+    width: 100%;
+    padding-left: 4px !important;
+    overflow-x: hidden;
+}
+
+.photo-studio-tools .dropdown-item {
+  padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(203, 213, 224, 0.7) !important;
+    position: relative;
+
+    h6 {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+}
+
+.photo-studio-upload {
+  border: 1px dashed rgba(203, 213, 224, 0.7);
+}
+
+#photo-studio-placeholder {
+  position: absolute;
+    top: 41%;
+    left: 41%;
+    font-size: 14px;
+}
+
+#photo-studio-result {
+  img {
+    border-radius: 1%;
+  }
+
+  .download-image {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3607843137);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    left: 15px;
+    top: 15px;
+  }
+
+  .download-image:hover {
+    background: #0f0f11;
+    color: #007BFF;
+  }
+}
+
+#source-image-variations-mask {
+  display: none;
+}
+
+
+
+  

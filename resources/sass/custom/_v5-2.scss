@@ -1,0 +1,106 @@
+/* ==========================================================================           
+ *
+ *    v5.2 Update
+ *
+ * ========================================================================== */
+.cms-box {
+  border: 1px solid rgba(219, 226, 235, 0.6901960784);
+  padding: 2rem;
+  border-radius: 1rem;
+
+  .cms-status {
+    position: absolute;
+    right: 2rem;
+    font-size: 10px;
+    top: 1rem;
+  }
+
+  .cms-image {
+    max-width: 9rem;
+  }
+
+  .cms-action {
+    text-transform: none;
+  }
+
+  .cms-deactive {
+    background: #FFE2E5; 
+    color: #ff0000;
+    padding: 3px 1rem;
+    border-radius: 1rem;
+  }
+
+  .cms-active {
+    background: rgba(0,188,126,.1);
+    color: #00bc7e;
+    padding: 3px 1rem;
+    border-radius: 1rem;
+  }
+}
+
+.show-text-result {
+  .tox .tox-editor-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.publish-action-buttons {
+  .dropdown-menu {
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none !important;
+    appearance: none !important;
+  }
+  
+}
+
+.side-plan-wrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 5px;
+  border: 1px solid rgba(235, 236, 241, .9);
+  border-radius: 10px;
+  span, a {
+    text-transform: none!important;
+    font-size: 11px!important;
+  }
+
+  .view-credits {
+    margin-top: -5px;
+    a {
+      &:hover, &:focus {
+        color: $primaryTextActiveColor!important;
+      }
+    }
+  }
+
+  #referral-button {
+    background-color: #FFF;
+    border-color: #FFF;
+    color: $primaryTextColor!important;
+
+    &:hover, &:focus {
+      background-color: #000;
+      border-color: #000;
+      color: #FFF!important;
+    }
+  }
+}
+
+#creditsModel {
+  .modal-header {
+    border-bottom: 1px solid #ebecf1;
+    padding: 1rem 1.5rem;
+    
+    h6 {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+}

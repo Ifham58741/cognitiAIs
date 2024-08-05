@@ -1,0 +1,88 @@
+/* ==========================================================================           
+ *
+ *    v5.7 Update
+ *
+ * ========================================================================== */
+
+.locale-action-button {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    min-width: 50px;
+    text-transform: none;
+    padding: 5px 10px;
+}
+
+.language-card {
+    border-color: rgba(219, 226, 235, 0.6901960784);
+    box-shadow: none;
+
+    &:hover, &:focus {
+        border-color: $primaryTextActiveColor;
+    }
+}
+
+.language-action-buttons {
+    background: none;
+    transition: all 0.3s;
+    border: none!important;
+    outline: none;
+
+    &:hover, &:focus {
+        transform: translateY(-3px);
+        box-shadow: 0 0.5rem 1rem rgba(29, 39, 59, 0.15);
+    }
+}
+
+.language-ellipsis {
+    top: 0.8rem;
+}
+
+.language-switch-checkbox {
+    position: absolute;
+    right: 3rem;
+    top: 0.9rem;
+}
+
+.language-editor-box {
+    box-shadow: none;
+    border-color: rgba(219, 226, 235, 0.6901960784);
+
+    .card-table {
+        td {
+            border-color: rgba(219, 226, 235, 0.6901960784);
+        }
+    }
+
+    .card-table tr td:last-child, .card-table tr th:last-child {
+        padding-right: 1rem;
+    }
+
+    .form-control {
+        font-size: 12px;
+        border-color: rgba(219, 226, 235, 0.6901960784);
+    }
+}
+
+#search_string {
+    border-color: rgba(219, 226, 235, 0.6901960784);
+    padding: 1em;
+    border-radius: 10px;
+    &:hover, &:active, &:focus {
+        border-color: $primaryTextActiveColor;
+    }
+}
+
+.header-languages {
+    .dropdown-menu {
+        padding: 0;
+    }
+
+    .dropdown-menu.show  {
+        left: -110px !important;
+    }
+
+    .dropdown-menu .dropdown-item {
+        padding: 0.4rem 1.5rem;
+    }
+} 
